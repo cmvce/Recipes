@@ -20,12 +20,15 @@
 
         </header>
         <main>
-            <form class="input-form">
-                <input type="text" placeholder="Enter a recipe..." class="input-box" autofocus autocomplete="off"
-                    required>
-                <input type="submit" class="submit-button">
-            </form>
-            <div class="recipes">The recipe will go here</div>
+            <div class="form-container">
+                <form class="input-form" id="recipe-form">
+                    <input type="text" placeholder="Enter a recipe..." class="input-box" autofocus autocomplete="off"
+                        required id="user-input">
+                    <input type="submit" class="submit-button">
+                </form>
+                <div class="hint">i.e: Beef, Fried Eggs, Polenta</div>
+            </div>
+            <div class="recipes hidden" id="recipes">The recipe will go here</div>
         </main>
 
 
