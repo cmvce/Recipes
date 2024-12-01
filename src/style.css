@@ -9,7 +9,7 @@ a {
 
 .container {
   margin: 120px;
-  max-width: 600px;
+  max-width: fit-content;
 }
 
 header {
@@ -29,19 +29,19 @@ form {
   display: flex;
 }
 
-.form-container{
-    padding: 15px 20px;
-    background-color: none;
-   
-    border-radius: 10px;
-    margin-bottom: 30px;
+.form-container {
+  padding: 15px 20px;
+  background-color: none;
+
+  border-radius: 10px;
+  margin-bottom: 30px;
 }
 
 .hint {
-    line-height: 1.5;
-    margin-top: 5px;
-    opacity: 0.5;
-    font-size: 12px;
+  line-height: 1.5;
+  margin-top: 5px;
+  opacity: 0.5;
+  font-size: 12px;
 }
 
 .input-box {
@@ -54,8 +54,6 @@ form {
   color: black;
 }
 
-
-
 .submit-button {
   margin-left: 10px;
   background: #759eb8;
@@ -67,9 +65,8 @@ form {
   padding: 14px 24px;
 }
 
-
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
 .recipes {
   font-size: 16px;
@@ -81,7 +78,7 @@ form {
 }
 
 .recipes strong {
-  color: #7392B7;
+  color: #7392b7;
 }
 
 footer {
